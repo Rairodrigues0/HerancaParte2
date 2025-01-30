@@ -1,11 +1,12 @@
 package ingresso
 
-class ClasseVip(
+open class ClasseVip(
     valor: Double,
     val adicional: Double
 ): Ingresso(valor) {
-    fun ingressoVip(){
-        valor += adicional
-        println(valor)
+    fun ingressoVip(): Double{
+        val ingressoVip = valor + adicional
+        return ingressoVip
+
     }
 }

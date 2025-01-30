@@ -1,7 +1,6 @@
-import funcionario.Funcionario
+import imovel.Novo
 
 fun main() {
-val teste =  Funcionario ("Raí", 16000.00)
-    teste.addAumento(2000.00)
-    teste.exibirDados()
+val teste = Novo("Figueiredo", 122.00, 50.00)
+    teste.impressao()
 }
